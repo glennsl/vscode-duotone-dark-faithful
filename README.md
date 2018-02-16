@@ -1,12 +1,9 @@
-# DuoTone Dark Themes for VSCode
+# DuoTone Dark Faithful Themes for VSCode
 
-Based on the great [DuoTone Dark Theme for Atom](https://github.com/simurai/duotone-syntax) by [Simurai](https://github.com/simurai). Built for Visual Studio Code.
+Based on the [DuoTone Dark Theme for Atom](https://github.com/simurai/duotone-syntax) by [Simurai](https://github.com/simurai). Built for Visual Studio Code.
 
-![](https://raw.githubusercontent.com/sallar/vscode-duotone-dark/master/screenshot.png)
-
-## Installation
-
-This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=sallar.vscode-duotone-dark).
+This is based on [Simurai's own TextMate port of DuoTone Dark Sky](https://gist.github.com/simurai/de2dbbbd7eabf25bec18), and built on the framework created by [Sallar](https://github.com/sallar)
+for his [VSCode DuoTone Dark theme](https://github.com/sallar/vscode-duotone-dark) to generalize it and generate themes for any variation.
 
 ## Included Themes
 
