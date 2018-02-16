@@ -294,6 +294,36 @@
 			</dict>
 		</dict>
 
+		<!-- Reason -->
+		<dict>
+			<key>name</key>
+			<string>Reason Uno-2</string>
+			<key>scope</key>
+			<string>
+				source.reason support.property-value
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>__UNO2__</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Reason Uno-4</string>
+			<key>scope</key>
+			<string>
+				source.reason entity.name.class
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>__UNO4__</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
 	<string>__UUID__</string>
