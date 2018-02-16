@@ -1,6 +1,6 @@
 {
-  "name": "vscode-duotone-dark",
-  "displayName": "DuoTone Dark Themes",
+  "name": "vscode-duotone-dark-faithful",
+  "displayName": "DuoTone Dark Faithful",
   "description": "DuoTone Dark Themes for Visual Studio Code",
   "version": "0.3.3",
   "publisher": "sallar",
@@ -21,27 +21,27 @@
   "contributes": {
     "themes": [
       {
-        "label": "DuoTone Dark Sea",
+        "label": "DuoTone Dark Sea Faithful",
         "uiTheme": "vs-dark",
         "path": "./themes/Sea.tmTheme"
       },
       {
-        "label": "DuoTone Dark Space",
+        "label": "DuoTone Dark Space Faithful",
         "uiTheme": "vs-dark",
         "path": "./themes/Space.tmTheme"
       },
       {
-        "label": "DuoTone Dark Forest",
+        "label": "DuoTone Dark Forest Faithful",
         "uiTheme": "vs-dark",
         "path": "./themes/Forest.tmTheme"
       },
       {
-        "label": "DuoTone Dark Sky",
+        "label": "DuoTone Dark Sky Faithful",
         "uiTheme": "vs-dark",
         "path": "./themes/Sky.tmTheme"
       },
       {
-        "label": "DuoTone Dark Earth",
+        "label": "DuoTone Dark Earth Faithful",
         "uiTheme": "vs-dark",
         "path": "./themes/Earth.tmTheme"
       }
