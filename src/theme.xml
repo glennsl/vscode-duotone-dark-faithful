@@ -23,81 +23,35 @@
 				<string>__SELECTION__</string>
 			</dict>
 		</dict>
+
+		<!-- Base -->
 		<dict>
 			<key>name</key>
-			<string>Comment</string>
+			<string>Uno-1</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>
+				entity.name.class,
+				entity.other.inherited-class,
+				entity.name.function,
+				entity.name.tag,
+				entity.other.attribute-name
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>__UNO5__</string>
-				<key>fontStyle</key>
-				<string> italic</string>
+				<string>__UNO1__</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Comment in Params</string>
+			<string>Uno-2</string>
 			<key>scope</key>
-			<string>meta.parameters comment.block</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>__DUO3__</string>
-				<key>fontStyle</key>
-				<string> italic</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>String</string>
-			<key>scope</key>
-			<string>string</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>__DUO1__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Number</string>
-			<key>scope</key>
-			<string>constant.numeric</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>__DUO1__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Built-in constant</string>
-			<key>scope</key>
-			<string>constant.language</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>__DUO1__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>User-defined constant</string>
-			<key>scope</key>
-			<string>constant.character, constant.other, variable.other.constant</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>__DUO1__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Variable</string>
-			<key>scope</key>
-			<string>variable, support.other.variable</string>
+			<string>
+				variable,
+				variable.language,
+				variable.other,
+				variable.parameter
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -108,9 +62,60 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword</string>
+			<string>Uno-3</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>
+				support.type,
+				support.class
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>__UNO3__</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Uno-4</string>
+			<key>scope</key>
+			<string>
+				comment,
+				punctuation
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>__UNO4__</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Duo-1</string>
+			<key>scope</key>
+			<string>
+				string,
+				constant.numeric,
+				constant.character,
+				constant.other,
+				storage.type,
+				support.constant,
+				constant.language,
+				support.function
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>__DUO1__</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Duo-2</string>
+			<key>scope</key>
+			<string>
+				keyword,
+				storage
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -119,278 +124,176 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Storage</string>
+			<string>Duo-3</string>
 			<key>scope</key>
-			<string>storage</string>
+			<string>
+				punctuation.definition.string,
+				punctuation.definition.variable,
+				punctuation.definition.parameters,
+				punctuation.definition.array
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>__DUO3__</string>
+			</dict>
+		</dict>
+
+		<!-- HTML -->
+		<dict>
+			<key>name</key>
+			<string>HTML Uno-2</string>
+			<key>scope</key>
+			<string>
+				entity.other.attribute-name.html
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>__UNO2__</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Uno-3</string>
+			<key>scope</key>
+			<string>
+				text.html.mt
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>__UNO3__</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Uno-4</string>
+			<key>scope</key>
+			<string>
+				text.html.mt meta.tag.sgml.html meta.tag.sgml.doctype.html,
+				text.html.mt meta.tag.sgml.html meta.tag.sgml.doctype.html,
+				entity.name.tag.doctype.html,
+				text.html.mt comment.block.html
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>__UNO4__</string>
+			</dict>
+		</dict>
+
+		<!-- PHP -->
+		<dict>
+			<key>name</key>
+			<string>PHP Uno-1</string>
+			<key>scope</key>
+			<string>
+				entity.name.class,
+				entity.other.inherited-class,
+				entity.name.function,
+				entity.name.tag,
+				entity.other.attribute-name
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>__UNO1__</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Uno-2</string>
+			<key>scope</key>
+			<string>
+				variable.other.php,
+				variable.other.php punctuation.definition.variable.php,
+				source.php source.php.embedded.block.html meta.function.php meta.function.arguments.php meta.function.argument.no-default.php variable.other.php,
+				source.php source.php.embedded.block.html variable.other.property.php,
+				source.php source.php.embedded.block.html meta.function.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>__UNO2__</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Uno-4</string>
+			<key>scope</key>
+			<string>
+				punctuation.definition.comment.js,
+				source.php source.php.embedded.block.html punctuation.section.embedded.begin.php,
+				source.php source.php.embedded.block.html comment.line.double-slash.php punctuation.definition.comment.php,
+				source.php source.php.embedded.block.html variable.other.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>__UNO4__</string>
+			</dict>
+		</dict>
+
+		<!-- JavaScript -->
+		<dict>
+			<key>name</key>
+			<string>JavaScript Uno-3</string>
+			<key>scope</key>
+			<string>
+				source.js support.function.dom.js
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>__UNO3__</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript Uno-4</string>
+			<key>scope</key>
+			<string>
+				source.js comment.line.double-slash.js punctuation.definition.comment.js
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>__UNO4__</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript Duo-2</string>
+			<key>scope</key>
+			<string>
+				source.js keyword.operator.js,
+				source.js meta.function.js
+			</string>
+			<key>settings</key>
+			<dict>
 				<key>foreground</key>
 				<string>__DUO2__</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Storage type</string>
+			<string>JavaScript Duo-3</string>
 			<key>scope</key>
-			<string>storage.type</string>
+			<string>
+				source.js meta.brace.curly.js
+			</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>__DUO1__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Class name</string>
-			<key>scope</key>
-			<string>entity.name.class</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>underline</string>
-				<key>foreground</key>
-				<string>__UNO1__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Type Name</string>
-			<key>scope</key>
-			<string>entity.name.type,support.type</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>__UNO1__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Inherited class</string>
-			<key>scope</key>
-			<string>entity.other.inherited-class</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic underline</string>
-				<key>foreground</key>
-				<string>__UNO1__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function name</string>
-			<key>scope</key>
-			<string>entity.name.function</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>__UNO1__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function argument</string>
-			<key>scope</key>
-			<string>variable.parameter</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>__UNO3__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tag name</string>
-			<key>scope</key>
-			<string>entity.name.tag,entity.other.attribute-name.class,entity.other.attribute-name.id</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>__UNO1__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tag attribute</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>__UNO2__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library function</string>
-			<key>scope</key>
-			<string>support.function</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>__UNO1__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library constant</string>
-			<key>scope</key>
-			<string>support.constant</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>__DUO1__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library class&#x2f;type</string>
-			<key>scope</key>
-			<string>support.class</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>__UNO2__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library variable</string>
-			<key>scope</key>
-			<string>support.other.variable</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Invalid</string>
-			<key>scope</key>
-			<string>invalid</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>__INVALID_BG__</string>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>__INVALID__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Invalid deprecated</string>
-			<key>scope</key>
-			<string>invalid.deprecated</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>__DEPRECATED_BG__</string>
-				<key>foreground</key>
-				<string>__DEPRECATED__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Punctuation Meta</string>
-			<key>scope</key>
-			<string>meta.brace,punctuation</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>__UNO5__</string>
-				<key>background</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>C Comment</string>
-			<key>scope</key>
-			<string>comment.block.c</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string> italic</string>
 				<key>foreground</key>
 				<string>__DUO3__</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS Property</string>
-			<key>scope</key>
-			<string>meta.property-name,support.type.property-name</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>__UNO3__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS Meta</string>
-			<key>scope</key>
-			<string>meta.property-value</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>__UNO5__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Object Literal Key</string>
-			<key>scope</key>
-			<string>meta.object-literal.key</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>__DUO1__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Import Block Meta</string>
-			<key>scope</key>
-			<string>variable.other.readwrite.alias</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>__DUO1__</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Special Objects</string>
-			<key>scope</key>
-			<string>variable.language.this,support.variable.object,support.variable.dom</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>__UNO3__</string>
-			</dict>
-		</dict>
+
 	</array>
 	<key>uuid</key>
 	<string>__UUID__</string>
@@ -399,6 +302,6 @@
 	<key>semanticClass</key>
 	<string>theme.__ID__</string>
 	<key>author</key>
-	<string>Sallar Kaboli</string>
+	<string></string>
 </dict>
 </plist>
