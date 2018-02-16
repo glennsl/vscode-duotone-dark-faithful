@@ -310,21 +310,6 @@
 				<string>#a9bca9</string>
 			</dict>
 		</dict>
-		<!--
-		<dict>
-			<key>name</key>
-			<string>Reason Uno-3</string>
-			<key>scope</key>
-			<string>
-				source.js support.function.dom.js
-			</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#869886</string>
-			</dict>
-		</dict>
-		-->
 		<dict>
 			<key>name</key>
 			<string>Reason Uno-4</string>
@@ -338,34 +323,49 @@
 				<string>#738273</string>
 			</dict>
 		</dict>
-		<!-->
+
+		<!-- Ocaml -->
 		<dict>
 			<key>name</key>
-			<string>Reason Duo-2</string>
+			<string>Reason Uno-2</string>
 			<key>scope</key>
 			<string>
-				source.js keyword.operator.js,
-				source.js meta.function.js
+				source.ocaml support.constant.property-value
 			</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#99a659</string>
+				<string>#a9bca9</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Reason Duo-3</string>
+			<string>OCaml Uno-4</string>
 			<key>scope</key>
 			<string>
-				source.js meta.brace.curly.js
+				source.ocaml constant.numeric
 			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#747a52</string>
+				<string>#738273</string>
 			</dict>
-		</dict>-->
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Duo-1</string>
+			<key>scope</key>
+			<string>
+				entity.other.attribute-name
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e7f98b</string>
+			</dict>
+		</dict>
 
 	</array>
 	<key>uuid</key>
