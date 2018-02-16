@@ -1,56 +1,56 @@
 {
-  "name": "vscode-duotone-dark-faithful",
-  "displayName": "DuoTone Dark Faithful",
-  "description": "Faithful DuoTone Dark Themes for Visual Studio Code",
-  "version": "0.1.0",
-  "publisher": "glennsl",
-  "engines": {
-    "vscode": "^1.5.0"
-  },
-  "scripts": {
-    "build": "node ./src/build.js"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "galleryBanner": {
-    "color": "#444C55",
-    "theme": "dark"
-  },
-  "contributes": {
-    "themes": [
-      {
-        "label": "DuoTone Dark Faithful Sea",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Sea.tmTheme"
-      },
-      {
-        "label": "DuoTone Dark Faithful Space",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Space.tmTheme"
-      },
-      {
-        "label": "DuoTone Dark Faithful Forest",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Forest.tmTheme"
-      },
-      {
-        "label": "DuoTone Dark Faithful Sky",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Sky.tmTheme"
-      },
-      {
-        "label": "DuoTone Dark Faithful Earth",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Earth.tmTheme"
-      }
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/glennsl/vscode-duotone-dark-faithful.git"
-  },
-  "homepage": "https://github.com/glennsl/vscode-duotone-dark-faithful#readme",
-  "license": "MIT",
-  "author": "Sallar Kaboli <sallar.kaboli@gmail.com>, glennsl"
+    "name": "vscode-duotone-dark-faithful",
+    "displayName": "DuoTone Dark Faithful",
+    "description": "Faithful DuoTone Dark Themes for Visual Studio Code",
+    "version": "0.1.1",
+    "publisher": "glennsl",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "scripts": {
+        "build": "node ./src/build.js"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "galleryBanner": {
+        "color": "#444C55",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "DuoTone Dark Faithful Sea",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sea.tmTheme"
+            },
+            {
+                "label": "DuoTone Dark Faithful Space",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Space.tmTheme"
+            },
+            {
+                "label": "DuoTone Dark Faithful Forest",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Forest.tmTheme"
+            },
+            {
+                "label": "DuoTone Dark Faithful Sky",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sky.tmTheme"
+            },
+            {
+                "label": "DuoTone Dark Faithful Earth",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Earth.tmTheme"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/glennsl/vscode-duotone-dark-faithful.git"
+    },
+    "homepage": "https://github.com/glennsl/vscode-duotone-dark-faithful#readme",
+    "license": "MIT",
+    "author": "Sallar Kaboli <sallar.kaboli@gmail.com>, glennsl"
 }
