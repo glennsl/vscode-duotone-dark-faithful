@@ -3,7 +3,7 @@
   "displayName": "DuoTone Dark Faithful",
   "description": "Faithful DuoTone Dark Themes for Visual Studio Code",
   "version": "0.1.0",
-  "publisher": "",
+  "publisher": "glennsl",
   "engines": {
     "vscode": "^1.5.0"
   },
@@ -13,7 +13,6 @@
   "categories": [
     "Themes"
   ],
-  "icon": "icon.svg",
   "galleryBanner": {
     "color": "#444C55",
     "theme": "dark"
@@ -53,5 +52,5 @@
   },
   "homepage": "https://github.com/glennsl/vscode-duotone-dark-faithful#readme",
   "license": "MIT",
-  "author": ""
+  "author": "Sallar Kaboli <sallar.kaboli@gmail.com>, glennsl"
 }
